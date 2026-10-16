@@ -1,12 +1,14 @@
 # User-Adaptive Hybrid Recommenders and the Diversity–Fairness Trade-off in Post-Hoc Re-ranking
 
-Hybrid recommender system for Steam games. Combines collaborative filtering (CF) and content-based filtering (CB) with Feature-Weighted Linear Stacking (FWLS), then studies two extensions:
+Hybrid recommender system for Steam games. Combines collaborative filtering (CF) and content-based filtering (CB) with Feature-Weighted Linear Stacking (FWLS), then studies three research questions:
 
 - **RQ1** — a user-adaptive α (per-user CF/CB weighting) vs. a single fixed α
 - **RQ2** — diversity-oriented post-hoc re-ranking (popularity penalty, MMR)
 - **RQ3** — fairness-oriented post-hoc re-ranking (publisher exposure, based on Modani et al.)
 
-Full methodology and results are in the report (`report/AIProject_report.pdf`).
+Full methodology and results are in the [report](report.pdf).
+
+Developed as the final project of the course *AI Project* at the University of Antwerp (Erasmus exchange, 2025–2026).
 
 ## Repository structure
 
@@ -22,6 +24,7 @@ Full methodology and results are in the report (`report/AIProject_report.pdf`).
 ├── reranking_extended.py       # Publisher fairness re-ranking (RQ3)
 ├── metrics.py                  # NDCG@k, Recall@k, Item Gini@k, ILS@k, per-user metrics
 ├── submission.py               # Exports recommendation lists to a Codabench-ready CSV
+├── report.pdf                  # Project report
 └── dataset/                    # Not included — see Data setup below
 ```
 
@@ -83,5 +86,4 @@ Running the notebook produces one submission file per method, ready to upload to
 
 ## Author
 
-Jimena de Prado González — Student ID: 0259865
-University of Antwerp
+Jimena de Prado González
