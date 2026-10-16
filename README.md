@@ -24,7 +24,7 @@ Developed as the final project of the course *AI Project* at the University of A
 ├── reranking_extended.py       # Publisher fairness re-ranking (RQ3)
 ├── metrics.py                  # NDCG@k, Recall@k, Item Gini@k, ILS@k, per-user metrics
 ├── submission.py               # Exports recommendation lists to a Codabench-ready CSV
-├── report.pdf                  # Project report
+├── AIreport.pdf                  # Project report
 └── dataset/                    # Not included — see Data setup below
 ```
 
