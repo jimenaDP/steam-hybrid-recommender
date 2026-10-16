@@ -6,7 +6,7 @@ Hybrid recommender system for Steam games. Combines collaborative filtering (CF)
 - **RQ2** — diversity-oriented post-hoc re-ranking (popularity penalty, MMR)
 - **RQ3** — fairness-oriented post-hoc re-ranking (publisher exposure, based on Modani et al.)
 
-Full methodology and results are in the [report](report.pdf).
+Full methodology and results are in the [report](AIreport.pdf).
 
 Developed as the final project of the course *AI Project* at the University of Antwerp (Erasmus exchange, 2025–2026).
 
